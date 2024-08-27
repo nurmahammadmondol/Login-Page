@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- DasiyUI CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Font  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+    .roboto-font {
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    .radio-info {
+      margin-left: 30px;
+    }
+
+    @media screen and (max-width:575px) {
+      .radio-info {
+        margin-left: 10px;
+      }
+
+    }
+  </style>
+
+
+</head>
+
+<body class="roboto-font">
+
+  <main>
+
+    <!-- Registration Page -->
+    <section id="#registration" class="h-full w-full  mx-auto my-auto bg-[#082138] border-2 border-emerald-500  ">
+
+      <div class="h-full w-full  lg:px-0  lg:w-9/12 lg:my-[100px] bg-[#062b4d] rounded-lg mx-auto  text-white">
+
+        <div class="p-7">
+
+          <h2 class="text-center text-[34px] lg:text-[40px] font-bold mb-7">Registration</h2>
+
+
+          <!-- from  -->
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-7 gap-y-4 mb-6">
+            <!-- box-1  -->
+            <div>
+              <label for="" class="text-[19px]">Fast name
+                <input type="text" placeholder="fast name"
+                  class="p-3  w-full bg-[#062b4d] border-2 border-gray-600 rounded-md">
+              </label>
+            </div>
+            <!-- box-2 -->
+            <div>
+              <label for="" class="text-[19px]">Last name
+                <input type="text" placeholder="last name"
+                  class="p-3  w-full bg-[#062b4d] border-2 border-gray-600 rounded-md">
+              </label>
+            </div>
+            <!-- box-3  -->
+            <div>
+              <label for="" class="text-[19px]">E-mail
+                <input type="email" placeholder="nm@gmail.com"
+                  class="p-3 w-full bg-[#062b4d] border-2 border-gray-600 rounded-md">
+              </label>
+            </div>
+            <!-- box-4  -->
+            <div>
+              <label for="" class="text-[19px]">Date of Birth
+                <input type="date" placeholder="date"
+                  class="p-3 text-gray-500 w-full bg-[#062b4d] border-2 border-gray-600 rounded-md">
+              </label>
+            </div>
+            <!-- box-5  -->
+            <div>
+              <label for="" class="text-[19px]">Phone Number
+                <input type="number" placeholder="number"
+                  class="p-3  w-full bg-[#062b4d] border-2 border-gray-600 rounded-md">
+              </label>
+            </div>
+            <!-- box-6  -->
+            <div>
+              <label for="" class="text-[19px]">Country
+                <input type="text" placeholder="country"
+                  class="p-3  w-full bg-[#062b4d] border-2 border-gray-600 rounded-md">
+              </label>
+            </div>
+            <!-- box-7  -->
+            <div>
+              <label for="" class="text-[19px]">Password
+                <input type="password" placeholder="password"
+                  class="p-3  w-full bg-[#062b4d]  border-2 border-gray-600 rounded-md">
+              </label>
+            </div>
+            <!-- box-8  -->
+            <div>
+              <label for="" class="text-[19px]">Confirm Password
+                <input type="password" placeholder="confirm password"
+                  class="p-3  w-full bg-[#062b4d]  border-2 border-gray-600 rounded-md">
+              </label>
+            </div>
+
+          </div>
+
+          <!-- radio  -->
+          <div>
+            <label for="">Gender :
+
+              <input type="radio" name="radio-7" class="radio radio-info" value="Male" /> Male
+              <input type="radio" name="radio-7" class="radio radio-info" value="Female" /> Female
+              <input type="radio" name="radio-7" class="radio radio-info" value="Other" /> Other
+
+            </label>
+          </div>
+
+          <!-- Button  -->
+          <div class="flex justify-end gap-7  mt-16">
+            <a href="">
+              <input type="reset" value="reset" name="" id="" class="btn btn-info px-10 text-white">
+            </a>
+            <a href="">
+              <input type="submit" value="submit" class="btn btn-info px-10 text-white">
+            </a>
+          </div>
+
+
+
+          <!-- login  -->
+          <div class="flex gap-5 mt-5">
+            <p>I have account on this website ?</p>
+            <a class="text-cyan-600" href="index.html">Log in</a>
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+</body>
+
+</html>
